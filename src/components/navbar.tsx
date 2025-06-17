@@ -1,12 +1,19 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
+  IconAward,
   IconBrandGithub,
   IconBrandX,
+  IconCertificate,
+  IconCode,
   IconExchange,
+  IconFileCv,
+  IconFileDownload,
   IconHome,
   IconNewSection,
+  IconSchool,
   IconTerminal2,
+  IconTools,
 } from "@tabler/icons-react";
 
 const Navbar = () => {
@@ -20,48 +27,43 @@ const Navbar = () => {
     },
 
     {
-      title: "Products",
+      title: "Qualification",
+      icon: (
+        <IconSchool className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "Projects",
       icon: (
         <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "Components",
+      title: "Achivments",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconCertificate className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "Aceternity UI",
+      title: "Skills",
       icon: (
-        <img
-          src="https://assets.aceternity.com/logo-dark.png"
-          width={20}
-          height={20}
-          alt="Aceternity Logo"
-        />
-      ),
-      href: "#",
-    },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconTools className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
 
     {
-      title: "Twitter",
+      title: "Resume",
       icon: (
-        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconFileDownload className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "GitHub",
+      title: "Social Media",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
