@@ -1,16 +1,11 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { HeroParallax } from "@/components/ui/hero-parallax";
-// import { TimelineDemo } from "@/components/TimeLine";
 
 const Hero = () => {
   return (
   <div>
     <HeroParallax products={products} />
-    {/* <div className="mt-[100px]">
-      <TimelineDemo />
-    </div> */}
   </div>
   )
 }
@@ -25,7 +20,7 @@ export const products = [
     title: "Tution-ed",
     link: "https://tuition-ed.com/",
     thumbnail:
-      "/image/1.png",
+      "image/1.png",
   },
   {
     title: "Cloudinary Saas",

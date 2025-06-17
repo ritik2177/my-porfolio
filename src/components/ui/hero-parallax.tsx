@@ -113,7 +113,7 @@ export const Header = () => {
         <span className="flex flex-wrap items-start gap-x-2 max-w-5xl">
           <span className="text-2xl font-bold text-orange-600 whitespace-nowrap">🧑‍💼 About Me :</span>
           <span className="text-white text-base">
-            I'm a passionate and curious BCA student at ECC College with a strong interest in web development and cloud computing. I enjoy building real-world applications, exploring new technologies, and solving logical problems. Currently diving deeper into React, Node.js, and DevOps tools.
+            I&rsquo;m a passionate and curious BCA student at ECC College with a strong interest in web development and cloud computing. I enjoy building real-world applications, exploring new technologies, and solving logical problems. Currently diving deeper into React, Node.js, and DevOps tools.
           </span>
         </span>
       </p>

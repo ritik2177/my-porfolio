@@ -1,16 +1,10 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconAward,
   IconBrandGithub,
-  IconBrandX,
   IconCertificate,
-  IconCode,
-  IconExchange,
-  IconFileCv,
   IconFileDownload,
   IconHome,
-  IconNewSection,
   IconSchool,
   IconTerminal2,
   IconTools,
