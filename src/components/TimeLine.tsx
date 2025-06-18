@@ -54,7 +54,7 @@ export function TimelineDemo() {
           <h2 className="text-sm md:text-lg font-bold text-neutral-800 dark:text-neutral-100">
             🚀 Cloudinary SaaS
           </h2>
-          <a href="https://your-cloudinary-saas-link.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://cloudinarysaass.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img
               src="image/3.png"
               alt="Cloudinary SaaS"
@@ -71,7 +71,7 @@ export function TimelineDemo() {
           <h2 className="text-sm md:text-lg font-bold text-neutral-800 dark:text-neutral-100">
             💱 Currency Exchanger
           </h2>
-          <a href="https://your-currency-exchanger-link.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://currenccycconverter.netlify.app/" target="_blank" rel="noopener noreferrer">
             <img
               src="image/4.png"
               alt="Currency Exchanger"

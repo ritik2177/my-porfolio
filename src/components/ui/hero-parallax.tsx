@@ -105,11 +105,11 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-0 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        <span className="text-yellow-400">Ritik </span> Kumar <br />Aspiring <span className=" bg-fuchsia-700">Full Stack</span> Developer
+        <span className="text-yellow-400">Ritik </span> Kumar <br />Aspiring <span className=" text-fuchsia-700">Full Stack</span> Developer
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         BCA Student, <br />
-        <span> 📧 Email | <a href="https://github.com/ritik2177"> 💻 Github </a> | 🔗 LinkedIn </span> <br /> <br />
+        <span><a href="mailto:ritikkvs2177@gmail.com"> 📧 Email </a>| <a href="https://github.com/ritik2177"> 💻 Github </a> | <a href="https://www.linkedin.com/in/ritik-kumar-058694318/">🔗 LinkedIn </a></span> <br /> <br />
         <span className="flex flex-wrap items-start gap-x-2 max-w-5xl">
           <span className="text-2xl font-bold text-gray-50 whitespace-nowrap">🧑‍💼 About Me :</span>
           <span className="text-white text-base">
