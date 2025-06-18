@@ -2,12 +2,12 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
   IconBrandGithub,
-  IconCertificate,
+  IconBrandLinkedin,
+  IconBrandWhatsapp,
+  IconBrandX,
   IconFileDownload,
   IconHome,
-  IconSchool,
-  IconTerminal2,
-  IconTools,
+  IconPhoneCall,
 } from "@tabler/icons-react";
 
 const Navbar = () => {
@@ -19,49 +19,48 @@ const Navbar = () => {
       ),
       href: "#",
     },
-
     {
-      title: "Qualification",
+      title: "LinkedIn",
       icon: (
-        <IconSchool className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.linkedin.com/in/ritik-kumar-058694318/",
     },
     {
-      title: "Projects",
+      title: "Github",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://github.com/ritik2177",
+    },
+    
+    {
+      title: "X (Twitter)",
+      icon: (
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://x.com/RitikKumar40926",
     },
     {
-      title: "Achivments",
+      title: "WhatsApp ",
       icon: (
-        <IconCertificate className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandWhatsapp className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://wa.me/919555503658",
     },
     {
-      title: "Skills",
+      title: "Call Me",
       icon: (
-        <IconTools className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconPhoneCall className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "tel:+919555503658",
     },
-
     {
       title: "Resume",
       icon: (
         <IconFileDownload className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
-    },
-    {
-      title: "Social Media",
-      icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
+      href: "image/resumeRitik.pdf",
     },
   ];
   return (

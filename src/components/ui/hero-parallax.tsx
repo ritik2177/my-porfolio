@@ -105,15 +105,15 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-0 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        <span className="text-yellow-400">Ritik </span> Kumar <br />Aspiring <span className="text-fuchsia-700">Full Stack</span> Developer
+        <span className="text-yellow-400">Ritik </span> Kumar <br />Aspiring <span className=" bg-fuchsia-700">Full Stack</span> Developer
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         BCA Student, <br />
-        <span> 📧 Email | <a href="https://github.com/ritik2177"> 🐙 Github </a> | 🔗 LinkedIn </span> <br /> <br />
+        <span> 📧 Email | <a href="https://github.com/ritik2177"> 💻 Github </a> | 🔗 LinkedIn </span> <br /> <br />
         <span className="flex flex-wrap items-start gap-x-2 max-w-5xl">
-          <span className="text-2xl font-bold text-orange-600 whitespace-nowrap">🧑‍💼 About Me :</span>
+          <span className="text-2xl font-bold text-gray-50 whitespace-nowrap">🧑‍💼 About Me :</span>
           <span className="text-white text-base">
-            I&rsquo;m a passionate and curious BCA student at ECC College with a strong interest in web development and cloud computing. I enjoy building real-world applications, exploring new technologies, and solving logical problems. Currently diving deeper into React, Node.js, and DevOps tools.
+            I&rsquo;m a passionate and curious BCA student at Ewing Christian  College with a strong interest in web development and cloud computing. I enjoy building real-world applications, exploring new technologies, and solving logical problems. Currently diving deeper into React, Node.js, and DevOps tools.
           </span>
         </span>
       </p>
